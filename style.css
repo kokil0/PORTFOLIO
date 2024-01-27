@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(227, 233, 213);
+}
+
+.main{
+    display: flex;
+}
+
+.left-section{
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+}
+.main img{
+    height: 200px;
+    width: 280px;
+    border-radius: 5px;
+}
+
+.left-section .heading{
+    margin: 8px;
+}
+
+.left-section i{
+    margin: 5px;
+}
+
+.left-section ul li{
+    list-style: none;
+}
+
+.left-section .resume a{
+    margin: 18px;
+    color: black;
+}
+
+
+.right-section{
+    background-color: white;
+    margin: 10px;
+}
+
+.right-section h1, p{
+    margin: 23px;
+}
+
+.right-section .projects{
+    margin: 23px;
+}
+
+.right-section #dev-heading{
+    color: green;
+    font-weight: 600;
+}
+
+.right-section .bio{
+    margin-left: 20px;
+}
+
+.right-section i{
+    margin: 5px;
+}
+
+.right-section .projects h3{
+    margin-left: 12px;
+}
+
+.right-section .education h4{
+    margin-left: 12px;
+}
+
+.right-section .education #year{
+    color: green;
+    line-height: 2px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 10px;
+    margin: 0px 13px;
+    bottom: 0;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .main{
+        display: inline;
+    }
+
+    .left-section{
+        width: auto;
+        margin: 10px;
+    }
+
+    .main img{
+        height: 250px;
+        width: 350px;
+        margin-left: 12px;
+        border-radius: 5px;
+        margin-top: 12px;
+    }
+}
